@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	background:#191919;
+}
+.wrapper{
+	max-width: 1300px;
+	margin: 0 auto;
+}
+.wrapper>.header>.header_container{
+	display: flex;
+	justify-content: space-between;
+	margin-top:10px;
+}
+.logo>h1{
+	color: #fff;
+}
+
+.header_container > .navbar > ul{
+	display: flex;
+
+}
+.header_container>.navbar > ul > li{
+	margin:10px 0 0 40px;
+}
+.navbar > ul > li > a{
+	color: #FFF;
+	font-family: DM Sans;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px;
+	transition: 1s;
+}
+.navbar > ul > li > a:hover{
+	color: #118DA8;
+	transition: 1s;
+}
+
+.social_platforms>.social_platforms_title>p{
+	color: #FFF;
+	font-family: DM Sans;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; 
+}
+.social_platforms{
+	width: 145px;
+
+}
+.last_episode_platfoms{
+	margin: 30px auto;
+}
+.platforms{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+.next-level-padcast>.container{
+	display: flex;
+	align-items: center;
+}
+.next-level-padcast{
+	margin-top: 50px;
+
+}
+.next-level-padcast>.container>.next-level-padcast_image>img{
+	width:650px;
+	height: 873px;
+
+}
+.bold{
+	font-family: DM Sans;
+	font-size: 80px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 88px; 
+	letter-spacing: 3.2px; 
+}
+
+.next-level-padcast>.container>.next-level-padcast_texts{
+	margin-left:160px;
+}
+
+.last_episode{
+	margin-top: 20px;
+}
+.last_episode>.last_episode_title{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.last_episode>.last_episode_title>.last_episode_button>.button{
+	margin: 36px
+}
+
+
+
+/*обшие*/
+.title_button>.button{
+	color: #FFF;
+	font-family: DM Sans;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px;
+	border: none;
+	border-radius: 6px;
+	background: #118DA8; 
+	padding: 5px;
+	cursor: pointer;
+}
+
+.title_text{
+	font-size: 34px;
+	line-height: 32px;
+	letter-spacing: 3.2px;
+	margin-top:10px;
+}
+.title_text{
+		color: #FFF;
+	font-family: DM Sans;
+	font-size: 70px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 88px; /* 125.714% */
+	letter-spacing: 3.2px
+}
+.item{
+	display: flex;
+	border-radius: 32px;
+	background: #000;
+	padding: 40px;
+	margin-top: 60px;
+}
+/*обшие*/
+
+
+.last_episode>.episods>.item>.item_info{
+	margin-left: 53px;
+}
+
+.last_episode>.episods>.item>.item_info>.info_button>button{
+	border-radius: 6px;
+	background: #191919;
+	border: none;
+	color: #FFF;
+	font-family: DM Sans;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 48px;
+	cursor: pointer;
+}
+
+.blue_text{
+	color: #118DA8;
+	font-family: DM Sans;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px;
+}
+.subtile_text{
+		color: rgba(255, 255, 255, 0.70);
+	font-family: DM Sans;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 33px; 
+	margin-bottom: 18px;
+}
+/*                   biografy                     */
+
+
+.biografy{
+	display: flex;
+	margin-top: 208px;
+}
+.biografy>.biografy_info>.arrow_cicle{
+	width: 112px;
+	height: 112px; 
+	border-radius: 100px;
+	background: #118DA8; 
+}
+.biografy>.biografy_info>.arrow_cicle>.arrow>img{
+	margin: 33px 15px 18px;
+}
+.biografy>.biografy_info>.biografy_text{
+	margin-right: 137px;
+}
+.biografy>.biografy_info>.biografy_text>.biografy_text_subtitle_1 {
+	margin-top: 20px;
+}
+.biografy>.biografy_info>.biografy_text>.biografy_text_host{
+	margin: 20px 10px 10px;
+}
+
+/*                   subscibe_form                     */
+
+.subscribe_form>.item>.form>form>input{
+	width: 522px;
+	height: 82px; 
+	border-radius: 6px;
+	border: 1px solid #191919;
+	background: #191919; 
+	color: rgba(255, 255, 255, 0.70);
+	font-family: DM Sans;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28.8px; /* 120% */ 
+}
+
+
+.subscribe_form>.item>.form>form{
+	margin-left: 20px;
+}
+.subscribe_form>.item>.form>form>.email{
+	margin-top: 20px;
+}
+	
+.subscribe_form>.item>.form>form>.title_button{
+	margin-top: 20px;
+}
+
+/*								 comments 						*/
+
+.stars{
+	display: flex;
+	margin-bottom: 21px;
+}
+.star{
+	margin-left: 5px;
+}
+
+.comment_text{
+	color: #FFF;
+	font-family: DM Sans;
+	font-size: 36px;
+	line-height: 43.2px; 
+}
+.comment_item{
+	margin-left: 16px;	
+}
+.from{
+	margin-top: 20px;
+}
+.comments{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr ;
+	margin-bottom: 209px;
+}
+
+@media(max-width:1154px){
+.next-level-padcast>.container>.next-level-padcast_texts>.text>p{
+	font-size: 34px;
+	line-height: 32px;
+	letter-spacing: 3.2px;
+}
+.next-level-padcast>.container>.next-level-padcast_texts{
+	margin-left:100px;
+}
+.bold{
+	font-family: DM Sans;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 46px;
+	letter-spacing: 3.2px;
+}
+.next-level-padcast > .container > .next-level-padcast_image > img {
+  width: 553px;
+  height: 699px;
+}
+
+.biografy>.biografy_image>img{
+	width: 425px;
+}
+
+}
+
+
+/*                     footer           */
+.footer{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.footer>.navbar>ul>li{
+	margin-top: 10px;
+}
+@media(max-width:925px){
+.biografy{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	text-align: center;
+}
+.biografy>.biografy_info>.arrow_cicle{
+	display: none;
+}
+.biografy>.biografy_info>.biografy_text{
+	text-align: centerz;
+}
+.comments{
+	display: grid;
+	grid-template-columns:1fr 1fr;
+
+}
+.item{
+	display: flex;
+	flex-direction: column;
+}
+
+}
+
+@media(max-width:852px){
+.next-level-padcast>.container{
+	display: flex;
+	flex-direction: column;
+}
+.footer{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.next-level-padcast > .container > .next-level-padcast_texts > .text > p{
+	margin: 0 64px 0 0;
+}
+
+.biografy>.biografy_info{
+	margin: 0 0 0 110px;
+}
+
+
+.footer>.social_platforms{
+	margin:0 auto;
+}
+
+.wrapper > .main > .subscribe_form > .item > .form > form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 16px;
+}
+.bscribe_form > .item > .form > form > .title_button > .login_button {
+	width: 513px;
+	height: 100px;
+}
+
+.last_episode>.episods>.item>.item_image>img{
+	display: block;
+	margin: 0 auto;
+}
+.last_episode>.episods>.item>.item_info>.info_button>button{
+	margin-top: 20px;
+
+}
+.biografy>.biografy_image>img{
+	width: 275px;
+}
+.title_text{
+	font-size: 34px;
+	line-height: 32px;
+	letter-spacing: 3.2px;
+	margin-top:10px;
+	text-align: center;
+}
+
+.last_episode>.last_episode_title>.last_episode_button>.button{
+	margin: 0;
+}
+
+.last_episode>.last_episode_title{
+	margin: 135px;
+}
+
+.comments{
+	display: grid;
+	grid-template-columns:1fr;
+
+}
+
+
+}
+
+
+@media(max-width:576px){
+.wrapper>.header>.header_container>.logo>h1{
+	font-size: 20px;
+}
+.wrapper > .header > .header_container > .navbar > ul > li{
+	margin: 0 0 0 20px;
+}
+.subtile_text{
+	line-height: 22px;
+	width: 280px;
+}
+.biografy>.biografy_info>.biografy_text>.biografy_text_subtitle_1 {
+	line-height: 22px;
+	width: 280px;
+}
+
+.last_episode>.last_episode_title{
+	display: flex;
+	flex-direction: column;
+}
+.wrapper>.main>.last_episode>.episods>.item>.item_image>img{
+	width: 272px;
+	height: 217px;
+}
+
+.last_episode>.last_episode_title>.last_episode_button>.button{
+	display: block;
+	margin: 20px auto;
+}
+.wrapper > .main > .subscribe_form > .item > .form > form > .title_button > .login_button {
+  width: 310px;
+  height: 100px;
+}
+.subscribe_form > .item > .form > form > input{
+	width: 335px;
+
+}
+.last_episode > .episods > .item > .item_image > img{
+	width: 318px;
+	height: 270px;
+}
+}
+
+@media(max-width:420px){
+.wrapper>.header>.header_container>.logo>h1{
+	font-size: 13px;
+}
+.wrapper > .header > .header_container > .navbar > ul > li{
+	margin:-4px 0 0 15px;
+}
+.wrapper > .header > .header_container > .navbar > ul > li > a{
+	font-size: 10px;
+}
+.wrapper > .main > .next-level-padcast > .container > .next-level-padcast_image > img {
+ width: 303px;
+ height: 315px;
+}
+
+
+
+}
